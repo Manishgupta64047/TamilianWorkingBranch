@@ -94,7 +94,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/mdisk_bots'),
-            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ', url='https://t.me/z_harbour)
+            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ', url='https://t.me/z_harbour')
             ],[
             InlineKeyboardButton(' 🔗sᴇᴀʀᴄʜ', url= 'https://t.me/z_harbour_files'),
             InlineKeyboardButton('🧩 ᴏᴛʜᴇʀ ʙᴏᴛs', url='https://t.me/mdisk_bots')
