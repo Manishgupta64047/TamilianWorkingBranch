@@ -199,7 +199,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             title = query.message.chat.title
 
         else:
-            return await query.answer(' ˆ°• Archie Bots •°ˆ ')
+            return await query.answer(' ˆ°• Ok Fine •°ˆ ')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -253,7 +253,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=keyboard,
             parse_mode=enums.ParseMode.MARKDOWN
         )
-        return await query.answer(' ˆ°• Archie Bots •°ˆ ')
+        return await query.answer(' ˆ°• Okay Fine •°ˆ ')
     elif "connectcb" in query.data:
         await query.answer()
 
@@ -315,7 +315,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Sᴏᴍᴇ Eʀʀᴏʀ Oᴄᴄᴜʀᴇᴅ!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer(' ˆ°• Archie Bots •°ˆ ')
+        return await query.answer(' ˆ°• Okay •°ˆ ')
     elif query.data == "backcb":
         await query.answer()
 
@@ -326,7 +326,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer(' ˆ°• Archie Bots •°ˆ ')
+            return await query.answer(' ˆ°• Ok da •°ˆ ')
         buttons = []
         for groupid in groupids:
             try:
@@ -440,11 +440,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+DsRP0j86lDk1YjY9'),
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ', url='https://t.me/+r-uXyUQJRTsxOWI1')
+            InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/mdisk_bots'),
+            InlineKeyboardButton('🍿ϩ५×7𝓜𝓸𝓿𝓲𝓮𝓼 ', url='https://t.me/blackest_harbour')
             ],[
-            InlineKeyboardButton(' 🔍 sᴇᴀʀᴄʜ', url= 'https://t.me/+mZVnSzKGHhU0ZmQ1'),
-            InlineKeyboardButton('🧩 ᴏᴛʜᴇʀ ʙᴏᴛs', url='https://t.me/+DsRP0j86lDk1YjY9')
+            InlineKeyboardButton('🍿ϩ५×7𝑺𝒆𝒓𝒊𝒆𝒔 ', url='https://t.me/z_harbour_files'),
+            InlineKeyboardButton('🧩 ᴏᴛʜᴇʀ ʙᴏᴛ', url='https://t.me/MdiskLinksSearchBot')
             ],[
             InlineKeyboardButton('📚 ʜᴇʟᴘ', callback_data='mods'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔰', callback_data='about')
@@ -457,7 +457,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Archie_Bots'),
+            InlineKeyboardButton('🔞Site', url='https://zharbour.blogspot.com/'),
             InlineKeyboardButton('🧩 Other Bots', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -567,7 +567,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sources":
         buttons = [[
 
-            InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='https://t.me/Archie_Bots')
+            InlineKeyboardButton('🔥𝐁𝐥𝐚𝐜𝐤 𝐌𝐚𝐫𝐤𝐞𝐭 🔗', url='https://t.me/Mdisk_Link_Downloader_Bot')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
         ]]
@@ -580,7 +580,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
 
-            InlineKeyboardButton('😊 Rᴇᴩᴏ 😊', url='https://t.me/Archie_Bots')
+            InlineKeyboardButton('𝐁𝐥𝐚𝐜𝐤 𝐌𝐚𝐫𝐤𝐞𝐭 📁', url='https://t.me/MdiskLinksSearchBot')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
@@ -592,7 +592,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/Filmyzilla_Updates')
+            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/mdisk_bots')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
@@ -722,7 +722,7 @@ async def auto_filter(client, msg, spoll=False):
             if not files:
                 await client.send_message(file_req_channel,f"-🦋 #REQUESTED_FILE 🦋-\n\n📝Fɪʟᴇ Nᴀᴍᴇ :{search}\n\nRᴇǫᴜᴇsᴛᴇᴅ Bʏ: {message.from_user.first_name}\n\n Usᴇʀ Iᴅ :{message.from_user.id}\n\n🗃Cᴏᴅᴇᴅᴇᴅ Bʏ  @Archie_Bots",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Fɪʟᴇ Uᴩʟᴏᴀᴅᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ 🔺", callback_data="close_data")]]))
-                l = await message.reply_text(text=f"△ Hᴇʏ Fʀɪᴇɴᴅ {message.from_user.first_name} 😎,\n\nʏᴏᴜʀ ʀᴇqᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴇɴᴛ ᴛᴏ ᴏᴜʀ ᴀᴅᴍɪɴ'ꜱ ᴅᴀꜱʜʙᴏᴀʀᴅ !\n\nᴘʟᴇᴀꜱᴇ ᴋᴇᴇᴘ ꜱᴏᴍᴇ ᴘᴀᴛɪᴇɴᴄᴇ !\nᴛʜᴇʏ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴀꜱ ꜱᴏᴏɴ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ.\n\n➟ 📝Cᴏɴᴛᴇɴᴛ Nᴀᴍᴇ : {search}\n\n➟ 👮 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ : {message.from_user.first_name}\n\n◈ ━━━━ ⸙ @Archie_Bots ⸙ ━━━━◈",
+                l = await message.reply_text(text=f"△ Hᴇʏ Fʀɪᴇɴᴅ {message.from_user.first_name} 😎,\n\nʏᴏᴜʀ ʀᴇqᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ꜱᴇɴᴛ ᴛᴏ ᴏᴜʀ ᴀᴅᴍɪɴ'ꜱ ᴅᴀꜱʜʙᴏᴀʀᴅ !\n\nᴘʟᴇᴀꜱᴇ ᴋᴇᴇᴘ ꜱᴏᴍᴇ ᴘᴀᴛɪᴇɴᴄᴇ !\nᴛʜᴇʏ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴀꜱ ꜱᴏᴏɴ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ.\n\n➟ 📝Cᴏɴᴛᴇɴᴛ Nᴀᴍᴇ : {search}\n\n➟ 👮 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ : {message.from_user.first_name}\n\n◈ ━━━━ ⸙ @z_harbour ⸙ ━━━━◈",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("➕ Aᴅᴅ Mᴇ Tᴏ Uʀ Gʀᴏᴜᴩ ➕", url=f'http://t.me/{temp.U_NAME}?startgroup=true')]]))
                 await asyncio.sleep(12)
                 await l.delete()
