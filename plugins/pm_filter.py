@@ -133,7 +133,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton("😌 Cʜᴇᴄᴋ Bᴏᴛ PM 😌", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("🌝How to Download 🌝", url=f"https://t.me/mdisk_bots/23")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -274,7 +274,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Some error occurred!!', parse_mode=enums.ParseMode.MARKDOWN)
-        return await query.answer(' ˆ°• Archie Bots •°ˆ ')
+        return await query.answer(' ˆ°•Long Live Bot Market•°ˆ ')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -297,7 +297,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Sᴏᴍᴇ Eʀʀᴏʀ Oᴄᴄᴜʀᴇᴅ!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer(' ˆ°• Archie Bots •°ˆ ')
+        return await query.answer(' ˆ°•Bot Market Fed•°ˆ ')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -457,8 +457,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🔞Site', url='https://zharbour.blogspot.com/'),
-            InlineKeyboardButton('🧩 Other Bots', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
+            InlineKeyboardButton('🔞 Site', url='https://zharbour.blogspot.com/'),
+            InlineKeyboardButton('🧩 Share Bot', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('Close ⛔', callback_data='close_data')
@@ -604,9 +604,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "contact":
         buttons = [[
-            InlineKeyboardButton('😳 Cʀᴇᴀᴛᴏʀ 😳', url='https://t.me/Filmyzilla_Updates')
+            InlineKeyboardButton('😳 Cʀᴇᴀᴛᴏʀ 😳', url='https://t.me/mdisk_bots')
         ], [     
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', url='https://t.me/Filmyzilla_Updates')
+            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', url='https://t.me/blackest_harbour')
         ], [  
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ], [
@@ -662,7 +662,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         if str(grp_id) != str(grpid):
             await query.message.edit("Your Active Connection Has Been Changed. Go To /settings.")
-            return await query.answer('Piracy Is Crime')
+            return await query.answer('Say Yes To Piracy')
 
         if status == "True":
             await save_group_settings(grpid, set_type, False)
@@ -706,7 +706,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer(' ˆ°• Archie Bots •°ˆ ')
+    await query.answer(' ˆ°•Bot Is Advanced•°ˆ ')
 
 
 async def auto_filter(client, msg, spoll=False):
@@ -774,7 +774,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
     btn.insert(0, [
-        InlineKeyboardButton("😌 Cʜᴇᴄᴋ Bᴏᴛ PM 😌", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("😌How To Download 😌", url=f"https://t.me/mdisk_bots/22")
     ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
@@ -870,7 +870,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("I couldn't find anything related to that. Check your spelling")
+        k = await msg.reply("I couldn't find anything related to that. Check your spelling Request Series Like This Lucifer S01 E14 & Movies Like This KGF 2022,Kgf Hindi")
         await asyncio.sleep(8)
         await k.delete()
         return
