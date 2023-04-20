@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/+b5u5eahOY-FjNDM9')
+                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/mdisk_bots')
             ],
             [
                 InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/mdisk_bots'),
-            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ', url='https://t.me/z_harbour)
+            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ', url='https://t.me/z_harbour')
             ],[
             InlineKeyboardButton(' 🍿sᴇᴀʀᴄʜ', url= 'https://t.me/MdiskLinksSearchBot'),
             InlineKeyboardButton('🧩 ᴏᴛʜᴇʀ ʙᴏᴛ', url='https://t.me/Mdisk_Link_Downloader_Bot')
