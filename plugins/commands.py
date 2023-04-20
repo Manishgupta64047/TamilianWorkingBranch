@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇs', url='https://t.me/mdisk_bots'),
             InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ', url='https://t.me/z_harbour')
             ],[
-            InlineKeyboardButton(' 🍿sᴇᴀʀᴄʜ', url= 'https://t.me/MdiskLinksSearchBot'),
+            InlineKeyboardButton('🍿Anᴏᴛʜᴇʀ ʙᴏᴛ', url= 'https://t.me/MdiskLinksSearchBot'),
             InlineKeyboardButton('🧩 ᴏᴛʜᴇʀ ʙᴏᴛ', url='https://t.me/Mdisk_Link_Downloader_Bot')
             ],[
             InlineKeyboardButton('📚 ʜᴇʟᴘ', callback_data= 'mods'),
