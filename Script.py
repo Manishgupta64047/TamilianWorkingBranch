@@ -55,9 +55,9 @@ class script(object):
     VIDEO_TXT ="""Dᴏᴡɴʟᴏᴀᴅ Aɴʏ Yᴏᴜᴛᴜʙᴇ Vɪᴅᴇᴏ Fʀᴏᴍ Tʜᴇ Vɪᴅᴇᴏ Lɪɴᴋ
 
 • Hᴏᴡ Tᴏ Usᴇ
-• Tʏᴘᴇ /video 𝘈𝘯𝘥 (YᴏᴜTᴜʙᴇ Vɪᴅᴇᴏ Lɪɴᴋ)
-• Exᴀᴍᴘʟᴇ:
-• /video https://youtu.be ...link"""
+• Tʏᴘᴇ /video else /song along with (YᴏᴜTᴜʙᴇ Vɪᴅᴇᴏ Lɪɴᴋ)
+• Yes YTDL Support Exᴀᴍᴘʟᴇ:
+• /video https://youtu.be ...ur copied link"""
 
     TELE_TXT = """▫️Hᴇʟᴘ: ▪️ Tᴇʟᴇɢʀᴀᴘʜ ▪️
      Tᴇʟᴇɢʀᴀᴘʜ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ
